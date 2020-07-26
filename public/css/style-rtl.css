@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,600,700");
+body {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif; }
+
+.header .headerTop-inner .header-logo {
+  margin-left: auto;
+  margin-right: 0; }
+
+.header .headerTop-inner .language-switch .dropdown-toggle::after,
+.header .headerTop-inner .userlogIn .dropdown-toggle::after {
+  display: none; }
+
+.header .headerTop-inner .userlogIn a {
+  text-align: right; }
+
+.header .headerTop-inner .language-switch .dropdown-toggle::before,
+.header .headerTop-inner .userlogIn .dropdown-toggle::before {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid #999;
+  border-right: .3em solid transparent;
+  border-bottom: 0;
+  border-left: .3em solid transparent; }
+
+.header nav form {
+  margin-left: 100px;
+  margin-right: 0; }
+
+.main-slider .slide-item .slide-text {
+  text-align: right; }
+
+.main-slider .owl-dots {
+  right: 217px;
+  left: auto; }
+
+.sec-title {
+  text-align: right; }
+
+.most-sells #most-sells-slider .most-sells-product .most-product-button svg {
+  margin-right: 0;
+  margin-left: 5px; }
+
+.subscribe .subscribe-form h3 {
+  text-align: right; }
+
+.footer .footer-list {
+  text-align: right; }
+
+.footer .contact-us-footer {
+  text-align: right;
+  padding-right: 70px;
+  padding-left: 0;
+  border-left: 0; }
+
+.footer:after {
+  position: absolute;
+  content: '';
+  width: 1px;
+  height: 100%;
+  background: #777;
+  top: 0;
+  left: 35%;
+  display: none;
+}
+
+.copy-right {
+  text-align: right; }
+
+.footer .contact-us-footer ul a svg {
+  margin-right: 0;
+  margin-left: 10px; }
+
+.product-page .product-preview,
+.product-page .product-details-and-reviews .product-reviews,
+.product-page .recent-buys {
+  text-align: right; }
+
+.product-page .product-preview .product-preview-text .product-buy-butons .addToCart svg {
+  margin-left: 10px;
+  margin-right: 0; }
+
+.product-page .product-preview .product-preview-media {
+  padding-left: 40px;
+  padding-right: 0; }
+
+.product-preview-text {
+  padding-right: 40px;
+  padding-left: 0; }
+
+.product-preview-text:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: -30px;
+  left: auto;
+  background: rgba(40, 47, 54, 0.15);
+  width: 1px; }
+
+.product-page .product-preview .product-preview-text .badges-sec {
+  left: 0;
+  right: auto; }
+
+@media (min-width: 768px) {
+  .product-page .product-details-and-reviews .offset-md-2 {
+    margin-left: 0;
+    margin-right: 16.666667%; } }
+.product-page .product-details-and-reviews .product-details {
+  text-align: right; }
+
+.product-page .product-details-and-reviews .product-details .product-details-box.help .download svg {
+  margin-left: 20px;
+  margin-right: 0; }
+
+.product-page .product-details-and-reviews .product-reviews .review-form .form-actions {
+  padding-right: 100px;
+  padding-left: 0; }
+
+.shop-page .merchant-details {
+  text-align: right; }
+
+.shop-page .merchant-details .merchant-contact .merchant-contact-tools a {
+  margin-right: 0;
+  margin-left: 20px; }
+
+.shop-page .merchant-details .merchant-contact .merchant-contact-tools a svg {
+  margin-right: 0;
+  margin-left: 10px; }
+
+.breadcrumb-item + .breadcrumb-item {
+  padding-left: 0;
+  padding-right: .5rem; }
+
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 0;
+  padding-left: .5rem;
+  content: '>';
+  font-weight: bold;
+  color: rgba(40, 47, 54, 0.3); }
+
+.shop-page-sidebar {
+  text-align: right; }
+
+.shop-page .shop-page-sidebar .card .card-header button:after {
+  left: 0;
+  right: auto; }
+
+.shop-page .shop-page-sidebar .card .card-header button {
+  text-align: right; }
+
+.shop-page .shop-page-sidebar .custom-control-label::after,
+.shop-page .shop-page-sidebar .custom-control-label::before {
+  right: 0;
+  left: auto; }
+
+.shop-page .shop-page-sidebar .custom-control-label {
+  padding-right: 30px; }
+
+.shop-page .shop-page-results .shop-page-results-filter-sec .shop-page-result-name {
+  text-align: right; }
+
+.cart-page .cart-sec {
+  text-align: right; }
+
+.input-group-prepend {
+  position: absolute;
+  left: 0;
+  right: auto; }
+
+.input-group-append {
+  right: 0;
+  left: auto;
+  position: absolute; }
+
+.cart-page .user-data-sec,
+.confirmProcess-sec,
+.account-setting-page .user-data-sec {
+  text-align: right; }
+
+.cart-page .user-data-sec .user-address #country .dropdown-menu {
+  text-align: right; }
+
+.header nav form button {
+  right: 0;
+  left: auto; }
+
+.header nav form input {
+  padding-right: 40px;
+  padding-left: 0; }
+
+.header nav .navbar-nav .nav-item .nav-link {
+  text-align: right; }
+
+.main-slider .slide-item .slide-text {
+  margin-right: 0;
+  margin-left: auto; }
+
+.header nav form .animation {
+  right: 0;
+  left: auto; }
+
+.cart-pop {
+  text-align: right; }
+
+.cart-pop-product-img {
+  margin-left: 20px;
+  margin-right: 0 !important; }
+
+.account-setting-page .applicationLog-sec {
+  text-align: right; }
+
+.account-setting-page .applicationLog-sec .applicationLog-products table .action-del-total a,
+.account-setting-page .applicationLog-sec .applicationLog-products table .product .product-box-top .merchant-details {
+  margin-left: 0;
+  margin-right: 20px; }
+
+.account-setting-page .alerts-sec,
+.account-setting-page .rates-sec,
+.header .loginReg .modal-body form .form-buttons {
+  text-align: right; }
+
+.header .loginReg .modal-body form .form-group .side {
+  right: 0;
+  left: auto;
+  border-right: 0;
+  border-left: 1px solid rgba(40, 47, 54, 0.15); }
+
+.header .loginReg .modal-body form .form-group input {
+  padding-right: 45px;
+  padding-left: 0; }
+
+.header .loginReg .modal-body form .form-group .hide {
+  left: 0;
+  right: auto; }
+
+.header .loginReg .modal-header .close {
+  left: 0;
+  right: auto; }
+
+.header .loginReg .modal-body .custom-control {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: right; }
+
+.header .register .custom-control span {
+  padding-right: 40px;
+  padding-left: 0; }
+
+.header .forget .modal-header p {
+  text-align: right; }
+
+.shop-page .shop-page-results .shop-page-results-products .result-service {
+  text-align: right; }
+
+.simple-template-sec,
+.cart-page .pay-sec {
+  text-align: right; }
+
+.cart-page .user-data-sec .user-address #country .dropdown-toggle span:nth-child(1),
+.cart-page .user-data-sec .user-address #country .dropdown-toggle span:nth-child(1) {
+  right: 0;
+  left: auto; }
+
+.shop-page .shop-page-results .shop-page-results-filter-sec .shop-page-results-filters span {
+  right: auto;
+  left: 0; }
+
+.product-page .product-preview .product-preview-text .quantity-sec .input-group-spinner {
+  margin-right: 0; }
+
+.header .headerTop-inner .cart .dropdown-menu {
+  left: 0 !important;
+  right: auto !important; }
+
+.cart-page .pay-sec .pay-details .custom-control label {
+  padding-right: 30px;
+  padding-left: 0; }
+  .cart-page .pay-sec .pay-details .custom-control label:after, .cart-page .pay-sec .pay-details .custom-control label:before {
+    right: 0;
+    left: auto; }
+
+.account-setting-page .user-data-sec .user-address #country .dropdown-toggle span:nth-child(1) {
+  right: 15px;
+  left: auto; }
+
+.account-setting-page .user-data-sec .user-address #country .dropdown-menu {
+  text-align: right; }
+
+.service-page .packages-sec .packages-inputs .custom-control:first-child {
+  margin-right: 0;
+  margin-left: 10px; }
+
+.service-page .packages-sec .packages-inputs .custom-control {
+  padding-left: 0;
+  padding-right: 1.5rem; }
+
+.service-page .packages-sec .packages-inputs .custom-control-label::before,
+.service-page .packages-sec .packages-inputs .custom-control-label::after {
+  right: -1.5rem;
+  left: auto; }
+
+.product-page .product-details-and-reviews .product-reviews .review-form .product-name {
+  padding-right: 100px;
+  padding-left: 0; }
+
+.cart-page .user-data-sec .user-address #country .dropdown-toggle:after {
+  left: 0;
+  right: auto; }
+
+.account-setting-page .applicationLog-sec .applicationLog-products table .action .action-buttons button {
+  width: 160px; }
+
+.account-setting-page .user-data-sec .user-address #country .dropdown-toggle:after {
+  left: 0;
+  right: auto; }
+
+/*# sourceMappingURL=style-rtl.css.map */

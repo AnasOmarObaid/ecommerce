@@ -1,0 +1,19 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class CategorySeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+
+
+        // make Category 1
+        $Categories = [''];
+    } //-- end run
+}//-- end seeder
